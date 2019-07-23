@@ -13,9 +13,15 @@
     <title>Document</title>
 </head>
 <body>
-  <div class="container">
+  <h1>Chystal Collector Game</h1>
+  <p>You will be given a random number at the start of the start of the game. <br> 
+     There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score. <br>
+     You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. <br>
+     The value of each crystal is hidden from you until you click on it.
+     Each time the game starts the game will change the value of each crystal.
     
-    <p>Here are the instructions for the game</p>
+     <!-- 19-120, 1-12 -->
+
 </div>
 
 <!-- Place to hold random number -->
@@ -23,24 +29,35 @@
 <button type="button">Click Me!</button>
 
 </div>
-<!-- second row with columns ()  -->
+<!-- second row with columns () 
+THe four below should generate random numbers on click, 
+but we only want the random numbers generated if the game is still in play. 
+We only want the random numbr generated on the first click after that, we merely want to add the generated
+number to the score until there is a win or loss. Lets see what what I have looks like
+Also, we do not want the "button" we want the image. Will research to remove/replace button with image. May use "hide element"
+
+And, we want it to reset (gene-->
 <div class="row">
         <div class="column" id="horse">
         <img src="assets/images/Hoarse.PNG"alt="crystal" height = "100"
-        width="100">
+        width="100"><button onclick="document.getElementById('horse').innerHTML = getRndInteger(1,12)">Click Me</button>
+
         
     </div>
         <div class="column" id="cat">
         <img src="assets/images/Cat.PNG" alt="crystal" height = "100"
-         width="100">   
+         width="100"> <button onclick="document.getElementById('cat').innerHTML = getRndInteger(1,12)">Click Me</button>
+  
         </div>
         <div class="column" id="koala">
         <img src="assets/images/Koala.PNG"alt="crystal" height = "100"
-        width="100">   
+        width="100"> <button onclick="document.getElementById('koala').innerHTML = getRndInteger(1,12)">Click Me</button>
+  
         </div>
         <div class="column" id="swan">
         <img src="assets/images/Swan.PNG"alt="crystal" height = "100"
-        width="100">   
+        width="100"><button onclick="document.getElementById('swan').innerHTML = getRndInteger(1,12)">Click Me</button>
+  
         </div>
       </div>
     </div>
