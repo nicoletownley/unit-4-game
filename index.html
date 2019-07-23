@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +8,30 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="assets/javascript/game.js"></script>
     <title>Document</title>
 </head>
 <body>
-  <h1>Chystal Collector Game</h1>
+  <div class="container">
+  <h1>Crystal Collector Game</h1>
   <p>You will be given a random number at the start of the start of the game. <br> 
-     There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score. <br>
-     You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. <br>
-     The value of each crystal is hidden from you until you click on it.
+     There are four crystals below. By clicking on a crystal, you will add a<br>
+     specific amount of points to your total score. <br>
+     You win the game by matching your total score to the random number.<br>
+     You lose the game if your total score goes above the random number. <br>
+     The value of each crystal is hidden from you until you click on it.<BR>
      Each time the game starts the game will change the value of each crystal.
-    
+  </p>
+
      <!-- 19-120, 1-12 -->
 
 <!-- Place to hold random number -->
 <div>
-<p id="charlie"></p>
+  <p id="charlie">where is this showing up?
+  
+  </p> 
 </div>
 
 <!-- second row with columns () 
@@ -36,11 +42,31 @@ number to the score until there is a win or loss. Lets see what what I have look
 Also, we do not want the "button" we want the image. Will research to remove/replace button with image. May use "hide"
 
 And, we want it to reset (gene-->
-<div class="crystals"></div>
-        </div>
-      </div>
-    </div>
+<div class="crystals">
+        <!--<div class="column" id="horse">
+        <img src="assets/images/Hoarse.PNG"alt="crystal" height = "100"
+        width="100"><button onclick="document.getElementById('horse').innerHTML = getRndInteger(1,12)">Click Me</button>
 
+        
+    </div>
+        <div class="column" id="cat">
+        <img src="assets/images/Cat.PNG" alt="crystal" height = "100"
+         width="100"> <button onclick="document.getElementById('cat').innerHTML = getRndInteger(1,12)">Click Me</button>
+  
+        </div>
+        <div class="column" id="koala">
+        <img src="assets/images/Koala.PNG"alt="crystal" height = "100"
+        width="100"> <button onclick="document.getElementById('koala').innerHTML = getRndInteger(1,12)">Click Me</button>
+  
+        </div>
+        <div class="column" id="swan">
+        <img src="assets/images/Swan.PNG"alt="crystal" height = "100"
+        width="100"><button onclick="document.getElementById('swan').innerHTML = getRndInteger(1,12)">Click Me</button>
+  
+        </div>
+      </div> -->
+    </div>
+  </div>
 <!--psuedo
 
 set up files

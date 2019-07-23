@@ -1,7 +1,31 @@
- .column {
-  float: left;
-  width: 10%;
-  
+.container{
+    background-color:  pink;
+  color: #44aaee;
+
 }
+  
+  h1  {
+  text-align: center;
+  color: #44aaee;
+  background: white;
+
+}
+ p {text-align: left;
+  color: #44aaee;
+  color: }
+ 
+ .crystals {
+  display: flex;
+  align-items: center;
+ }
+  .crystal {
+    border: 1 px #44aaee;
+    height: 150px;
+    Width: 150px;
+  }
+ img {width: 50px;
+    height: 50px;
+  }
+
 
 
