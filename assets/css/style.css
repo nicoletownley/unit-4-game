@@ -16,7 +16,10 @@
  
  .crystals {
   display: flex;
+  justify-content: center;
   align-items: center;
+  background: pink;
+  border: 1px #44aaee;
  }
   .crystal {
     border: 1 px #44aaee;
@@ -25,7 +28,10 @@
   }
  img {width: 50px;
     height: 50px;
+  } 
+  .col-sm-6 {
+    height: 60px;
+    text-align: center;
   }
-
 
 
