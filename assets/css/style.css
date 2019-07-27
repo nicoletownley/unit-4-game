@@ -1,37 +1,19 @@
-.container{
-    background-color:  pink;
-  color: #44aaee;
-
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0OUKR034RxsUNt-vjeORsKiD8MqjYyZonefcC5ZnLfjy6JDc83Q");
 }
-  
-  h1  {
-  text-align: center;
-  color: #44aaee;
-  background: white;
-
-}
- p {text-align: left;
-  color: #44aaee;
-  color: }
- 
- .crystals {
+ #crystals {
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: pink;
   border: 1px #44aaee;
+  align-items: center;
+
  }
   .crystal {
-    border: 1 px #44aaee;
+    border: 1 px pink;
     height: 150px;
     Width: 150px;
+    border: 10 px 10 px  pink;
+    color: white;
+  
   }
- img {width: 50px;
-    height: 50px;
-  } 
-  .col-sm-6 {
-    height: 60px;
-    text-align: center;
-  }
-
-
+ 
