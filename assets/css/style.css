@@ -1,19 +1,67 @@
 body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0OUKR034RxsUNt-vjeORsKiD8MqjYyZonefcC5ZnLfjy6JDc83Q");
+  background-size: cover;
 }
- #crystals {
+h1 {
+  background-color: purple;
+  font-size: 50px;
+  color: red;    
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+
+#crystals {
   display: flex;
   justify-content: center;
   border: 1px #44aaee;
   align-items: center;
+  
 
  }
   .crystal {
     border: 1 px pink;
     height: 150px;
     Width: 150px;
-    border: 10 px 10 px  pink;
     color: white;
+    margin: 0;
+
   
   }
+  #charlie {
+    font-size: 25px;
+    color: purple;
+    width:  100%;
+    text-align: left;
+    margin-top: 40px;
+    background-color: red;
+
+  }
  
+  #instruct {
+    font-size: 25px;
+    color: purple;
+    width:  100%;
+    text-align: left;
+    
+  }
+
+
+  #total {  
+  font-size: 25px;
+    color: purple;
+    width:  100%;
+    background-color: red;
+
+  }
+
+  #wins {  
+    font-size: 25px;
+      color: purple;
+    }
+    #losses {  
+      font-size: 25px;
+        color:  purple;
+      }
+
+    
