@@ -58,6 +58,7 @@ h1 {
   #wins {  
     font-size: 25px;
       color: purple;
+    margin-top: 20px;
     }
     #losses {  
       font-size: 25px;
