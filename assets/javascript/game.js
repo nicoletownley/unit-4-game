@@ -15,6 +15,7 @@ $(document).ready(function () {
 
         ];
         function reset() {
+                
                 startOrRestart = Math.floor(Math.random() * 102) + 19;
                 $("#charlie").html('Match this random number:' + startOrRestart);
                 //for each crystal:
