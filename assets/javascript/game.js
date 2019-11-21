@@ -36,7 +36,7 @@ $(document).ready(function () {
                                 "background-size": "cover"
                         });
                         //move the 4 random results into divs -crystal- (4) in html under dive with "crystals"class
-                        crystal.html(animal)
+                        // crystal.html(animal);
 
                         $("#crystals").append(crystal);
 
@@ -68,8 +68,10 @@ $(document).ready(function () {
                         console.log("You lost");
 
                         $("#charlie").html('Match this number:' + startOrRestart);
-                        $(".crystal").empty();
+                        $("#crystals").empty();
                         $("#total").empty();
+                        reset();
+
                 }
 
                 else if (yourScore === startOrRestart) {
@@ -78,8 +80,9 @@ $(document).ready(function () {
                         yourScore = 0;
                         startOrRestart = Math.floor(Math.random() * 102) + 19;
                         $("#charlie").html('Match this number:' + startOrRestart);
-                        $(".crystal").empty();
+                        $("#crystals").empty();
                         $("#total").empty();
+                        reset();
                 }
                 
                 }
